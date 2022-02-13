@@ -4,7 +4,7 @@ from collections import defaultdict
 from math import floor, ceil
 from math import log, log2
 
-MAX_ITER = 80
+MAX_ITER = 90
 
 def julia(c, z0):
     z = z0
@@ -22,8 +22,8 @@ def linear_interpolation(color1, color2, t):
     return color1 * (1 - t) + color2 * t 
 
 # Image size (pixels)
-WIDTH = 2000
-HEIGHT = 2400
+WIDTH = 3000
+HEIGHT = 2000
 
 # Plot window
 RE_START = -1

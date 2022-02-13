@@ -2,8 +2,8 @@
 from PIL import Image, ImageDraw
 
 # Image size (pixels)
-WIDTH = 1920
-HEIGHT = 1080
+WIDTH = 3000
+HEIGHT = 2000
 
 # Plot window
 RE_START = -2
